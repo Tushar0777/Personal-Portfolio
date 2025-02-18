@@ -19,8 +19,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Tushar</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Working in field of FullStack development , <br className='sm:block hidden' />
-             Flutter Application
+          Working in field of FullStack development <br className='sm:block hidden' />
+          and Devops
           </p>
         </div>
       </div>

@@ -43,12 +43,12 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <a href="https://github.com/smridhikatyal">
+          <a href="https://github.com/Tushar0777">
           <img src={github} alt='logo' className='w-9 h-9 object-contain' />
           </a>
 
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Smridhi &nbsp;
+            Tushar &nbsp;
             <span className='sm:block hidden'> </span>
           </p>
         </Link>

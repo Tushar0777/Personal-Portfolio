@@ -27,6 +27,7 @@ import {
   threejs,
   naarishakti,
   goodnight,
+  paisa
 } from "../assets";
 
 export const navLinks = [
@@ -50,7 +51,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Flutter Developer",
+    title: "Devops Engineer",
     icon: mobile,
   },
   {
@@ -106,53 +107,40 @@ const technologies = [
     icon: git,
   },
   
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "docker",
+    icon: docker,
+  },
 ];
 
 const experiences = [
-  {
-    title: "MERN-Stack Developer",
-    company_name: "BirlaSoft- MK Birla Group",
-    icon: Birlasoft_logo,
-    iconBg: "#383E56",
-    date: "May 2024 - July 2024",
-    points: [
-      "Creating a MERN Stack App from scratch. ",
-      "Sucessfully created an JWT-Authenication System ",
-      "Integration of Payment-gateway",
-
-      // "Developing and maintaining web applications using React.js and other related technologies.",
-      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      // "Implementing responsive design and ensuring cross-browser compatibility.",
-      // "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  
   // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
+  //   title: "MERN-Stack Developer",
+  //   company_name: "BirlaSoft- MK Birla Group",
+  //   icon: Birlasoft_logo,
+  //   iconBg: "#383E56",
+  //   date: "May 2024 - July 2024",
   //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //     "Creating a MERN Stack App from scratch. ",
+  //     "Sucessfully created an JWT-Authenication System ",
+  //     "Integration of Payment-gateway",
+
+  //     // "Developing and maintaining web applications using React.js and other related technologies.",
+  //     // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     // "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     // "Participating in code reviews and providing constructive feedback to other developers.",
   //   ],
   // },
+
 ];
 
 const testimonials = [];
 
 const projects = [
   {
-    name: "Women-safety-Naari shakti",
+    name: "Blockchain-driven-Voting-System",
     description:
-      "Web-based platform that allows users to search and contact the nearest police station along with sending you current location to the contact of your choice.",
+      " Developed a Voting System using blockchain principles to ensure tamper-proof election results.",
     tags: [
       {
         name: "HTML",
@@ -168,50 +156,39 @@ const projects = [
       },
     ],
     image: naarishakti,
-    source_code_link: "https://guptashreya12.github.io/Women--NAARISHIELD-/",
+    source_code_link: "https://tushar0777.github.io/Blockchain_VotingSystem/",
   },
   {
-    name: "GoodNight-Flutter Application",
+    name: "Custom Language Interpreter",
     description:
-      " GoodNight is a comprehensive solution designed to enhance sleep quality through the integration of advanced ML predictions and personalized AI chat support. Our mission is to transform the way individuals approach their nighttime routines, fostering healthier sleep habits for all..",
+      "  Built an interpreter that includes variable declarations, arithmetic operations, conditionals, loops, and boolean expressions, using Python",
     tags: [
       {
-        name: "Dart",
+        name: "Python",
         color: "blue-text-gradient",
       },
-      {
-        name: "Dialogflow",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Flutter",
-        color: "pink-text-gradient",
-      },
+     
+      // {
+      //   name: "",
+      //   color: "pink-text-gradient",
+      // },
     ],
     image: goodnight,
-    source_code_link: "https://github.com/smridhikatyal/TeamEureka",
+    source_code_link: "https://github.com/Tushar0777/My_script",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Personal Finance Management",
+    description:
+      "Developed a secure, scalable RESTful API for managing income, expenses, and budgets,Loans etc.",
+    tags: [
+      {
+        name: "Spring Boot",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: paisa,
+    source_code_link: "https://documenter.getpostman.com/view/39300826/2sAYJ7fyvY",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
