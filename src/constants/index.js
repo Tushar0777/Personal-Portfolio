@@ -27,7 +27,10 @@ import {
   threejs,
   naarishakti,
   goodnight,
-  paisa
+  Paisa,
+  Notesapp,
+  Voting,
+  Myscript,
 } from "../assets";
 
 export const navLinks = [
@@ -36,8 +39,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    // id: "work",
+    // title: "Work",
   },
   {
     id: "contact",
@@ -155,7 +158,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: naarishakti,
+    image: Voting,
     source_code_link: "https://tushar0777.github.io/Blockchain_VotingSystem/",
   },
   {
@@ -173,7 +176,7 @@ const projects = [
       //   color: "pink-text-gradient",
       // },
     ],
-    image: goodnight,
+    image: Myscript,
     source_code_link: "https://github.com/Tushar0777/My_script",
   },
   {
@@ -186,9 +189,29 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: paisa,
+    image: Paisa,
     source_code_link: "https://documenter.getpostman.com/view/39300826/2sAYJ7fyvY",
   },
+  {
+    name: "Notes App with Dockerized Deployment",
+    description:
+      "Engineered a full-stack Notes application using Flask with CRUD functionality, user authentication, and a responsive UI for a seamless user experience.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+
+    ],
+    image: Notesapp,
+    source_code_link: "https://hub.docker.com/repository/docker/tusharpal7/two-tier-backend/general",
+  },
+
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -33,6 +33,10 @@ import naarishakti from "./naarishakti.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import goodnight from "./goodnight.png";
+import Paisa from "./Paisa.png"
+import Notesapp from "./Notesapp.png"
+import Voting from "./Voting.png"
+import Myscript from "./Myscript.png"
 
 
 export {
@@ -69,4 +73,9 @@ export {
   naarishakti,
   flutter,
   goodnight,
+  Paisa,
+  Notesapp,
+  Voting,
+  Myscript,
+  
 };
